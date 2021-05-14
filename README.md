@@ -22,7 +22,7 @@ Using `rails g model`, create a new Student model with the following attributes:
 - `last_name` (string)
 - `grade` (integer)
 
-**Don't forget to add the `-no-test-framework` argument to your generate command!**
+**Don't forget to add the `--no-test-framework` argument to your generate command!**
 
 Add an instance method `Student#to_s` which will return the student's first name
 and last name concatenated with a space between. For example: calling `.to_s` on
